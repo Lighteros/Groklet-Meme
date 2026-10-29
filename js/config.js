@@ -13,7 +13,7 @@ window.GROKLET_CONFIG = {
   ticker: "",
 
   /* ---- Contract address (copied exactly as written, case-sensitive) ---- */
-  contract: "0x787873c9ae96855bdB032F6fF1Ef76a5e1Fc8aDC",
+  contract: "0x4332c6295f6896e1315ab971e01cee5c5a518fb1",
 
   /* ---- Links ----------------------------------------------------------
    * id        : used by data-link="..." attributes in index.html
@@ -21,11 +21,11 @@ window.GROKLET_CONFIG = {
    * Only the URLs you supplied are filled in. Add Discord, a purchase page
    * etc. by setting `url` on the matching entry (or adding a new one).    */
   links: {
-    x:           { label: "Follow on X",         url: "https://x.com/GrokletMascot" },
+    x:           { label: "Follow on X",         url: "https://x.com/Groklet_Mascot" },
     telegram:    { label: "Join Telegram",       url: "https://t.me/GrokletMascot" },
-    chart:       { label: "Chart on Dexscreener", url: "https://dexscreener.com/ethereum/0x93f3923cf4eb2dd4cfd3beef42fc6d3178412121" },
+    chart:       { label: "Chart on Dexscreener", url: "https://dexscreener.com/ethereum/0x4332c6295f6896e1315ab971e01cee5c5a518fb1" },
     discord:     { label: "Join Discord",        url: "" },
-    buy:         { label: "Buy",                 url: "" }
+    buy:         { label: "Buy",                 url: "https://app.uniswap.org/swap?chain=ethereum&outputCurrency=0x4332c6295f6896e1315ab971e01cee5c5a518fb1" }
   },
 
   /* ---- Featured Grok post --------------------------------------------- */
